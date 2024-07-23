@@ -2,7 +2,7 @@
  Skin Melanoma Classification using CNN 
 
 
-File 1: Step01-Prepare-The-Data.py
+Step01-Prepare-The-Data.py
 
 Steps:
 
@@ -15,7 +15,8 @@ Steps:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-File 2: Step02-Build-CNN-Model
+Step02-Build-CNN-Model
+
 Steps:
 -Load Preprocessed Data
 -Define Categories
@@ -44,7 +45,7 @@ Accuracy Value:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-File 3:Step03-Test-The-Model
+Step03-Test-The-Model
 
 Steps:
 -Load the Trained Model
