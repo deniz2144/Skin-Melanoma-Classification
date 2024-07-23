@@ -36,13 +36,14 @@ File 3:Step03-Test-The-Model
 (Purpose):
 This step involves loading the pre-trained model and image pre-processing so that a particular image is processed by the model. This process performs the necessary preprocessing for the model to make predictions on new images and displays summary information to check the structure of the model.
 
-Normal image:
 ![ Normal image. 2024-07-23 181102](https://github.com/user-attachments/assets/61b6fcc3-a5fd-49ac-9baa-3d4d0a2293ba)
 
-Predicted image:
+
+Normal image:
+
 ![Predicted image 2024-07-2 181218](https://github.com/user-attachments/assets/74e18f0a-2b88-438c-9201-6f4498175114)
 
-
+Predicted image:
 
 
 
