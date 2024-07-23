@@ -17,7 +17,13 @@ Bu adımın amacı, önceden işlenmiş cilt lezyonları verilerini kullanarak b
 Purpose:
 The purpose of this step is to train a convolutional neural network (CNN) model using preprocessed skin lesion data and to evaluate the performance of the trained model. This involves loading image and label data, preparing it for model training, defining and training the model, and finally assessing the model's accuracy and loss on test data. The goal is to optimize the model’s performance in classifying skin lesions into specified categories.
 
-![Ekran görüntüsü 2024-07-23 180459](https://github.com/user-attachments/assets/ca5850ee-0b36-4261-a1b1-1d26ef28be2f)
+!. 2024-07-23 180459](https://github.com/user-attachments/assets/ca5850ee-0b36-4261-a1b1-1d26ef28be2f)
+
+
+
+
+![. 2024-07-23 180406](https://github.com/user-attachments/assets/471e34e8-e86b-4872-b146-31796cae2f23)
+
 
 
 
