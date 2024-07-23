@@ -22,7 +22,12 @@ The purpose of this step is to train a convolutional neural network (CNN) model 
 Model:
 ![Model . 2024-07-23 180459](https://github.com/user-attachments/assets/ca5850ee-0b36-4261-a1b1-1d26ef28be2f)
 
+Epoch 20/20:
 
+Loss: 0.1756
+Accuracy: 0.9347
+Confirmation Loss: 0.6190
+Verification Accuracy: 0.7455
 
 Accuracy Value:
 ![Accuracy. 2024-07-23 180406](https://github.com/user-attachments/assets/471e34e8-e86b-4872-b146-31796cae2f23)
