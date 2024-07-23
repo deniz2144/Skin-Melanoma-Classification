@@ -4,19 +4,26 @@
 
 File 1: Step01-Prepare-The-Data.py
 
-Purpose: In the processing of skin parts; resizing and converting to grayscale.
-Process: Reads in tags from the CSV file, processes the details, and connects the results to NumPy arrays.
+Steps:
 
+-Load CSV File
+-Define Image File Path
+-Identify Categories
+-Create Data Structures
+-Process and Label Images
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 File 2: Step02-Build-CNN-Model
-
-Process:
-Bu adımın amacı, önceden işlenmiş cilt lezyonları verilerini kullanarak bir sinir ağı modelini eğitmek ve modelin performansını değerlendirmektir. Bu süreç, modelin belirli cilt lezyonu türlerini sınıflandırma yeteneğini ölçmeyi ve doğruluğunu artırmayı hedefler.
-
-Purpose:
-The purpose of this step is to train a convolutional neural network (CNN) model using preprocessed skin lesion data and to evaluate the performance of the trained model. This involves loading image and label data, preparing it for model training, defining and training the model, and finally assessing the model's accuracy and loss on test data. The goal is to optimize the model’s performance in classifying skin lesions into specified categories.
+Steps:
+-Load Preprocessed Data
+-Define Categories
+-Prepare Data
+-Build the Model
+-Compile the Model
+-Train the Model
+-Evaluate the Model
 
 
 Model:
@@ -24,10 +31,10 @@ Model:
 
 Epoch 20/20:
 
-Loss: 0.1756
-Accuracy: 0.9347
-Confirmation Loss: 0.6190
-Verification Accuracy: 0.7455
+-Loss: 0.1756
+-Accuracy: 0.9347
+-Confirmation Loss: 0.6190
+-Verification Accuracy: 0.7455
 
 Accuracy Value:
 ![Accuracy. 2024-07-23 180406](https://github.com/user-attachments/assets/471e34e8-e86b-4872-b146-31796cae2f23)
@@ -35,14 +42,21 @@ Accuracy Value:
 
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 File 3:Step03-Test-The-Model
-(Purpose):
-This step involves loading the pre-trained model and image pre-processing so that a particular image is processed by the model. This process performs the necessary preprocessing for the model to make predictions on new images and displays summary information to check the structure of the model.
+
+Steps:
+-Load the Trained Model
+-Define Image Preparation Function
+-Load and Display Image
+-Prepare Image for Prediction
+
+-
 
 ![ Normal image. 2024-07-23 181102](https://github.com/user-attachments/assets/61b6fcc3-a5fd-49ac-9baa-3d4d0a2293ba)
 
+-
 
 Normal image:
 
